@@ -1,0 +1,249 @@
+@media (max-width:767px){
+	.mobile-menu .menu-img i {
+		color: #fff;
+	}
+	.mobil-menu{
+    	display: block;
+	}
+
+	.header-right{
+		display: none;
+	}
+
+	.mobil-menu ul li {
+    	padding: 25px 0;
+    	text-align: center;
+    	transition: all 0.5s ease 0s;
+	}
+	.toggle-menu {
+	    background-color: #fff;
+	    line-height: 1;
+	    position: fixed;
+	    top: 0;
+	    bottom: 0;
+	    width: 300px;
+	    left: -302px;
+	    transition: all 0.5s ease 0s;
+	    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	}
+	.toggle-menu li a{
+		color: #000;
+	}
+	.toggle{
+		display: none;
+	}
+	input#toggle:checked + .ib + .toggle-menu{
+		left: 0;
+	}
+	.menu-block{
+		float: right;
+		padding-right: 30px;
+	}
+	.menu-block i{
+		color: #fff;
+	}
+	.mobil-menu ul li a {
+    	display: inline-block;
+    	padding: 0;
+    	position: relative;
+	}
+	.mobil-menu ul li a:before {
+	    content: "";
+	    margin: 0 auto;
+	    bottom: -4px;
+	    height: 1px;
+	    background-color: #000;
+	    position: absolute;
+	    opacity: 0;
+	    width: 0;
+	    transition: all 0.5s ease 0s;
+	}
+	.welcome-text .social-icon a {
+		font-size: 13px;
+	}
+	.mobil-menu ul li:hover a:before{
+		opacity: 1;
+		width: 100%;
+	}
+	.welcome-overlay:before {
+	    border-width: 100vh 0 0 39vh;
+	}
+	h1 {
+	    font-size: 35px;
+	    font-weight: 400;
+	}
+	p {
+    	font-size: 12px;
+	}
+	.welcome-text p{
+		margin-bottom: 10px;
+	}
+	.welcome-area .type {
+		margin-bottom: 0px;
+		margin-top: 0;
+	}
+	.social-icon {
+    	margin-bottom: 0px;
+	}
+	.padding-style1 {
+    	padding: 50px 0px;
+	}
+	.about-left {
+    	max-width: 100%;
+    	width: 100%;
+	}
+	.about-right {
+    	width: 100%;
+    	max-width: 100%;
+	}
+	.service-left {
+    	width: 100%;
+    	max-width: 100%;
+    	padding: 0 ;
+	}
+	.service-right {
+   		width: 100%;
+    	max-width: 100%;
+    	padding: 0 15px;
+    	margin-top: 20px;
+	}
+	
+	.service-item span {
+	    width: 40px;
+	    height: 40px;
+	    border: 1px solid rgba(101, 101, 101, 0.4);
+	    font-size: 15px;
+	}
+	.service .content-title {
+    	font-size: 11px;
+    	margin-bottom: 0px;
+	}
+	.section-title {
+    	font-size: 30px;
+    	margin-bottom: 0;
+	}
+	.title-small{
+		font-size: 10px;
+	}
+	.portfolio .portfolio-content{
+		padding-top: 10px;
+	}
+	.portfolio .menu li a {
+    	font-size: 14px;
+    	padding: 0px 0;
+	}
+	.portfolio-content-head {
+    	margin-top: 15px;
+    	margin-bottom: 25px;
+	}
+	.portfolio-bottom ul li {
+		max-width: 100%;
+	}
+	.detail-overlay{
+		display: none;
+	}
+	.detail-overlay-2{
+		display: block;
+	    background: #fff;
+	    position: relative;
+	    right: 0;
+	    width: 100%;
+	    height: 100%;
+	    z-index: -1;
+	   	margin-top: 15px;
+	}
+	.side {
+    	max-width: 100%;
+	}
+	.personal-detail .detail-content-area {
+    	padding: 15px 20px;
+	}
+	.testitems li {
+    	width: 100%;
+	}
+	.client-testimonial .client-area {
+    	padding-top: 10px;
+	}
+	.client-testimonial .quote-text {
+		padding: 25px;
+	}
+	.client-testimonial .clinet-img {
+    	padding-top: 25px;
+	}
+	.testitems {
+		margin: 0;
+	}
+	.owl-btn .btn {
+    	padding: 2px 9px;
+    	font-size: 10px;
+    	margin-left: 7px;
+	}
+	.fun-fact .fun-item {
+	   padding: 21px 0px;
+    	width: 100%;
+    	margin-bottom: 15px;
+	}
+	.fun-item .counter {
+		font-size: 25px;
+	}
+	.fun-item h3{
+		margin-bottom: 7px;
+	}
+	.fun-fact h6 {
+    	font-size: 15px;
+    	padding-top: 13px;
+	}
+	.blog-content {
+    	padding-top: 20px;
+	}
+	.blog-text {
+    	padding: 15px;
+    	width: 100%;
+	}
+	.content-main{
+		padding-bottom: 10px;
+	}
+	.blog-img {
+    	width: 100%;
+	}
+	.blog-content .flex{
+		margin-bottom: 10px;
+	}
+	.newsletter-form {
+		padding: 20px 0;
+	}
+	.newsletter-form .newsletter-email {
+		height: 20px;
+		margin-bottom: 0;
+	}
+	.newsletter .submit-btn {
+	    line-height: 20px;
+	    font-size: 10px;
+	}
+	.contact-header{
+		margin-top: 10px;
+	}
+	.contact-content .box {
+	    max-width: 100%;
+	    margin-bottom: 10px;
+	}
+	h6{
+		font-size: 20px;
+	}
+	.contact-detail{
+		padding: 25px;
+	}
+	.btn-style1 {
+	    padding: 10px 25px;
+	    margin-top: 10px;
+	}
+	.contact textarea {
+		height: 100px;
+	}
+	footer{
+		padding: 10px 0;
+	} 
+	footer .copyright p {
+    	margin: 0;
+	}
+}
