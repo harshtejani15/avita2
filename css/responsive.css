@@ -32,12 +32,11 @@
 	.toggle{
 		display: none;
 	}
-	input#toggle:checked + .ib + .toggle-menu{
+	input#toggle:checked + .ib + .toggle-menu  {
 		left: 0;
 	}
 	.menu-block{
 		float: right;
-		padding-right: 30px;
 	}
 	.menu-block i{
 		color: #fff;
@@ -66,7 +65,7 @@
 		width: 100%;
 	}
 	.welcome-overlay:before {
-	    border-width: 100vh 0 0 39vh;
+	    border-width: 100vh 0 0 24vh;
 	}
 	h1 {
 	    font-size: 35px;
@@ -246,4 +245,11 @@
 	footer .copyright p {
     	margin: 0;
 	}
+	.ib{
+		z-index: 2;
+	}
+}
+
+@media (max-width:320px){
+
 }
