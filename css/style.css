@@ -58,8 +58,11 @@ header {
     transition: all 0.4s;
 }   
 
-.padding-style1{
+.padding-style1 {
     padding: 100px 0;
+}
+.client-testimonial{
+    text-align: center;
 }
 
 .header{
@@ -145,9 +148,6 @@ li.active a {
     z-index: 2;
 }
 
-.detail-overlay-2{
-    display: none;
-}
 .welcome-overlay:before {
     content: "";
     width: 0;
@@ -400,7 +400,7 @@ li.active a {
     margin: 0 10px;
 }
 
-.service .item{
+.service .item-2{
     background: #fff;
     padding: 20px;
 }
@@ -758,9 +758,11 @@ a.nav-item {
     margin-bottom: 20px;
 }
 
-.testitems li{
-    width: 33.33%;
-}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    max-width: 95px;
+    }
 
 .owl-btn{
     margin-top: 10px;
@@ -1125,4 +1127,30 @@ footer .copyright p {
     text-align: center;
     color: #ddd;
     margin: 0;
+}
+
+.owl-nav button i{
+    background-color: #000;
+    color: #fff;
+    font-size: 10px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    transition: all 0.5s ease 0s;
+}
+.owl-nav button i:hover{
+    background-color: #4b4b4b;
+    color: #fff;
+}
+
+.owl-dots button span{
+    height: 5px;
+    display: block;
+    width: 5px;
+    border-radius: 100%;
+    background-color: #4b4b4b;
+    margin-right: 5px;
 }
